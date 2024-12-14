@@ -85,4 +85,4 @@ After successfully setting it up, send a message to your bot via Telegram, and i
 - If you encounter any issues, verify that the token is correct and the webhook is set up properly.
 
 ### License
-This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
+This project is licensed under the MIT License - see [LICENSE.md](LICENSE) for details.
