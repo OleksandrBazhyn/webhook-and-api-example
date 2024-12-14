@@ -18,7 +18,7 @@ app.post('/telegramWebhook', async (req, res) => {
         const userMessage = req.body.message.text;
 
         const replyText = `You wrote ${userMessage}`;
-        const userName = req.body.message.userName;
+        const userName = req.body.message.chat.username;
         try {
             await axios.post(`${TELEGRAM_API_URL}/sendMessage`, {
                 chat_id: chatId,
